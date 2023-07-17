@@ -1,0 +1,179 @@
+/* Importing font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #FFFFFF; */
+}
+
+#container {
+    max-width: 1320px;
+    /* display: flex; */
+    margin: auto;
+    
+}
+
+#caption{
+    color: #FFFFFF;
+    font-weight:700 ;
+    font-size: 4.5rem ;
+    line-height: 4.5rem;
+    margin-bottom: 20px;
+}
+
+#subtitle{
+    color: #FFFFFF;
+    font-weight:400;
+    font-size:1rem;
+   
+}
+
+#banner-section{
+    background-color: #161616;
+    display: flex;
+    border-radius: 30px;
+    
+    
+}
+#banner-text{
+    margin: 110px 90px;
+}
+
+#banner-left,#banner-right{
+max-width: 50%;
+}
+
+#banner-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:auto;
+   
+    }
+#banner-image{
+    width: 100%;
+    object-fit:cover;
+    
+}
+
+.primary-button{
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border-radius:5px ;
+    border: none;
+    text-decoration: none;
+
+}
+.secondary-button{
+    /* background-color: #161616; */
+    color: #00000;
+    padding: 16px 25px;
+    border-radius:5px ;
+    border: none;
+    text-decoration: none;
+
+}
+
+#cards-section{
+    margin-top:130px ;
+       display: flex;
+}
+
+
+.card{
+    height: auto;
+    width: 312px;
+    border-radius: 10px;
+    border: solid 1px #E8E8E8 ;
+}
+.card-left{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #161616;
+    justify-content: space-between;
+    margin-right: 24px;
+    height: 312px;
+}
+.card-left a{
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: white;
+    max-width:252px ;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.card-right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+
+}
+.card-body{
+    padding:20px;
+}
+
+.bordered-caption{
+    border: solid 1px #161616;
+    border-radius: 5px;
+    color: #161616;
+    font-size: 16px;
+    padding: 4px 16px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px ;
+}
+
+
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 444px;
+    background: #161616;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.logo-text{
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+footer hr {
+    max-width: 95%;
+    margin-left: 1.5em;
+}
+.navigation ul {
+    display: flex;
+    /* justify-content: center; */
+    list-style: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+
+    color: #B9B9B9;
+}
+
+.navigation ul li {
+    padding: 1.5em;
+}
